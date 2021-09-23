@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+            android:defaultValue="@string/pref_default_upload_url"
+            android:inputType="textUri"
+            android:key="upload_url"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_upload_url"/>
+
+    <EditTextPreference
+            android:defaultValue="@string/pref_default_save_interval"
+            android:inputType="number"
+            android:key="save_interval"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_save_interval"/>
+
+    <EditTextPreference
+            android:defaultValue="@string/pref_default_export_interval"
+            android:inputType="number"
+            android:key="export_interval"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_export_interval"/>
+
+    <EditTextPreference
+            android:defaultValue="@string/pref_default_upload_interval"
+            android:inputType="number"
+            android:key="upload_interval"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_upload_interval"/>
+
+
+
+</PreferenceScreen>

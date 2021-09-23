@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/motion_modes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/mode_walk">
+
+        <RadioButton
+            android:id="@+id/mode_walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_walk" />
+
+        <RadioButton
+            android:id="@+id/mode_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_run" />
+
+        <RadioButton
+            android:id="@+id/mode_bike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_bike" />
+
+        <RadioButton
+            android:id="@+id/mode_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_car" />
+
+        <RadioButton
+            android:id="@+id/mode_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_other" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/mode_custom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="@string/mode_hint" />
+
+</LinearLayout>

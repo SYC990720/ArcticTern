@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorAccent">#ff9800</color>
+
+    <color name="collectionActivityBackground">#cfd8dc</color>
+    <color name="collectionBackgroundText">#263238</color>
+    
+    <color name="detailListOddColor">#f1f8e9</color>
+    <color name="detailListEvenColor">#e1f5fe</color>
+    <color name="detailListDivideColor">#ffebee</color>
+
+    <color name="red500">#f44336</color>
+    <color name="red700">#d32f2f</color>
+    <color name="red900">#b71c1c</color>
+
+    <color name="lime500">#cddc39</color>
+    <color name="lime700">#a4b42b</color>
+    <color name="lime900">#827717</color>
+
+    <color name="orange500">#ff9800</color>
+    <color name="orange700">#f57c00</color>
+    <color name="orange900">#e65100</color>
+    
+    <color name="grey500">#9e9e9e</color>
+    <color name="grey800">#424242</color>
+    <color name="grey900">#212121</color>
+
+</resources>

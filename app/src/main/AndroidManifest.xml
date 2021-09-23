@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+    package="com.mirrordust.telecomlocate">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+
+    <application
+        android:name=".app.TelecomLocate"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.SampleActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar.TransparentStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.SampleDetailActivity"
+            android:label="@string/activity_label_detail"
+            android:theme="@style/AppTheme.NoActionBar.DarkStatusBar" />
+
+        <activity
+            android:name=".activity.DataActivity"
+            android:label="@string/activity_label_data"
+            android:theme="@style/AppTheme.NoActionBar.DarkStatusBar" />
+
+        <activity
+            android:name=".activity.PredictionActivity"
+            android:label="@string/activity_label_prediction"
+            android:theme="@style/AppTheme.NoActionBar.DarkStatusBar" />
+
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/activity_label_settings" />
+
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/activity_label_about"
+            android:theme="@style/AppTheme.NoActionBar.DarkStatusBar" />
+
+        <service
+            android:name=".service.SampleService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+                android:name=".service.DataService"
+                android:enabled="true"
+                android:exported="true" />
+
+        <!--<receiver-->
+        <!--android:name=".broadcastreceiver.MyReceiver"-->
+        <!--android:exported="false">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.mirrordust.telecomlocate.uploadservice.broadcast.status" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+
+    </application>
+
+</manifest>
