@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-android-library:3.5.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/90df3cca2771aebaff8ff7413a468825/realm-android-library-3.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/90df3cca2771aebaff8ff7413a468825/realm-android-library-3.5.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/90df3cca2771aebaff8ff7413a468825/realm-android-library-3.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/modules-2/files-2.1/io.realm/realm-android-library/3.5.0/a07ee579600c0359d16072dd4ae911287f3f86a2/realm-android-library-3.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/modules-2/files-2.1/io.realm/realm-android-library/3.5.0/69ff653c16ea6238bd5242ddcc3d1d0aa5b4aea9/realm-android-library-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

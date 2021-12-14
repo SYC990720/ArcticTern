@@ -5,8 +5,8 @@ apply plugin: 'com.chaquo.python'
 android {
     compileSdkVersion 25
     defaultConfig {
-        //applicationId "com.mirrordust.telecomlocate"
-        applicationId "com.fruitbasket.audioplatform"
+        applicationId "com.mirrordust.telecomlocate"
+//        applicationId "com.fruitbasket.audioplatform"
         minSdkVersion 21
         targetSdkVersion 25
         versionCode 1

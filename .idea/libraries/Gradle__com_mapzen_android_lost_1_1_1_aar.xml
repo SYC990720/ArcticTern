@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mapzen.android:lost:1.1.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/69bb865b0ca720320888353de0cff23c/lost-1.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/69bb865b0ca720320888353de0cff23c/lost-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/69bb865b0ca720320888353de0cff23c/lost-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/69bb865b0ca720320888353de0cff23c/lost-1.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/modules-2/files-2.1/com.mapzen.android/lost/1.1.1/d92e875bd8a6b67bcb01f13051cde6da5f3d568/lost-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/modules-2/files-2.1/com.mapzen.android/lost/1.1.1/28f2f8c0899dd1aeb6e4565879dbd9b7f914f275/lost-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

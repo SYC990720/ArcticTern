@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-core-utils:25.4.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/d7bcb59c2df8c19fbc74f3dc935a9f96/support-core-utils-25.4.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/d7bcb59c2df8c19fbc74f3dc935a9f96/support-core-utils-25.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/d7bcb59c2df8c19fbc74f3dc935a9f96/support-core-utils-25.4.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/transforms-2/files-2.1/d7bcb59c2df8c19fbc74f3dc935a9f96/support-core-utils-25.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-6.9.1/caches/modules-2/files-2.1/com.android.support/support-core-utils/25.4.0/d6b11ea57da1c759dea11565c0b36e1cc04eb11d/support-core-utils-25.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
